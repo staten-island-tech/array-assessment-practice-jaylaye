@@ -90,9 +90,12 @@ const titles = [
 //Sort books from oldest to most recent
 
 //sort books alphabetically
+titles.sort();
+console.log(titles);
 
 //Find who wrote War and Peace
-
+const book = books.filter((wp) => wp.name === "war and peace");
+console.log(book);
 //how many books were written before 1900?
 
 //was there at least one book published within the last 100 years?
